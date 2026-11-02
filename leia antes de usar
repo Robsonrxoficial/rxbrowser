@@ -1,0 +1,14 @@
+RX BROWSER 3.6.1
+
+1. Extraia todo o ZIP.
+2. Execute CRIAR-EXE.bat no Windows 10/11 64 bits.
+3. O projeto usa .NET 10 e Microsoft Edge WebView2 Runtime.
+4. O EXE será publicado em DIST\RXBrowser.exe.
+
+Novidades 3.6.1: correção do erro de compilação no painel de privacidade, remoção da referência WPF não usada que causava o aviso MSB3277 em projetos WinForms e correção do aviso de nulabilidade. Recursos adicionados na 3.6.0: RX Privacy Monitor com contagens temporárias, eventos recentes e filtro por site; importação/exportação de listas simples do RX AdBlock com limite de 5.000 domínios; alertas heurísticos no monitor.
+
+Recursos mantidos da 3.5: RX Translate com seleção de idiomas e fluxo guiado para traduzir sites; RX Reader Intelligence com extração inteligente de artigos, estimativa de leitura, temas, fontes e exportação; RX Tab Manager 2.0 com pesquisa, filtros, ordenação e fechamento em lote de guias não fixadas.
+
+A tradução usa o Google Tradutor como serviço externo. O endereço da página é copiado após a confirmação e precisa ser colado na área Sites do serviço. O serviço pode processar o conteúdo da página; evite páginas confidenciais.
+
+O ZIP contém o código-fonte e os scripts de compilação; não contém EXE pré-compilado.
